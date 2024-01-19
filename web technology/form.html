@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #d1{
+            height: 10vh;
+            width: 100%;
+           
+            display: flex;
+            align-items: center;
+           justify-content: space-evenly;
+           margin-top: 10px;
+          
+        }
+        .i1{
+            width: 20%;
+            height: 30px;
+          margin-top: 5px;
+            border-radius: 5px;
+            font-size: x-large;
+        }
+        #ll1{
+            margin-top: 5px;
+            width: 20%;
+            height: 30px;
+           
+            font-size: x-large;
+
+        }
+        .d2{
+            height: 10vh;
+            width: 100%;
+           
+            display: flex;
+            align-items: center;
+           justify-content: space-evenly;
+          
+        }
+        #s1{
+            margin-top: 5px;
+            width: 20%;
+            height: 30px;
+           
+            font-size: x-large;
+
+        }
+       
+        #i2{
+            width: 68%;
+            height: 30px;
+            border-radius: 5px;
+            margin-left: 15px;
+            position: relative;
+            left: 14px;
+            font-size: x-large;
+        }
+        #ll2{
+            font-size: x-large;
+        }
+        .d3{
+            
+            height: 10vh;
+            width: 100%;
+           
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        
+          
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+       <div id="d1">
+        <label for="l1" id="ll1">*Name of the Applicant</label>
+        <input type="text" placeholder="FIRST NAME" required class="i1" id="l1">
+        <input type="text" placeholder="MIDDLE NAME" required class="i1">
+        <input type="text" placeholder="LAST NAME" required class="i1">
+       </div>
+       <div class="d2">
+       <select name="ss" id="s1">
+        <option value="op1">select</option>
+       </select>
+       <input type="text" placeholder="FIRST NAME" required class="i1" id="l1">
+        <input type="text" placeholder="MIDDLE NAME" required class="i1">
+        <input type="text" placeholder="LAST NAME" required class="i1">
+       </div>
+      <div class="d2">
+        <label for="" id="ll2">Full name as per records</label>
+        <input type="text" placeholder="New Full Name" required id="i2">
+      </div>
+      <div class="d3">
+        <label for="" style=" font-size: x-large;">* Gender</label>
+        <div id="dd1">
+          
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">TransGender
+        </div>
+       
+        <div id="dd2">
+            <label for="" style="font-size: x-large; margin-right: 4px;">Date of Birth</label>
+            <input type="date" style="font-size: x-large;">
+        </div>
+        <div id="dd3">
+            <label for="" style="font-size: x-large;">Age</label>
+            <input type="number" style="font-size: x-large;">
+        </div>
+      </div>
+      <label for="" style="margin-left: 80px; font-size: x-large;">Place of Birth</label>
+      <input type="text" placeholder="Birth Place" style="margin-left: 200px; border-radius: 5px; font-size: x-large;">
+      <label for="" style="margin-left: 20px; font-size: x-large;">Country of birth</label>
+     <select name="" id="" style="margin-left: 5px; font-size: x-large;">
+        <option value="">india</option>
+        <option value="">america</option>
+        <option value="">uae</option>
+     </select><br>
+     <label for="" style="margin-left: 80px; font-size: x-large; margin-top: 30px;">Qualification</label>
+     <select name="" id="" style="margin-left: 200px; width: 200px; font-size: x-large; margin-top: 30px;">
+        <option value="">select</option>
+     </select>
+     <label for="" style="margin-left: 80px; font-size: x-large; margin-top: 30px;">Blood Group</label>
+     <select name="" id="" style="margin-left: 10px; width: 200px; font-size: x-large; margin-top: 30px;">
+        <option value="">Unknown</option>
+     </select><br>
+     <label for="" style="margin-left: 80px; font-size: x-large; margin-top: 30px;">Applicant number</label>
+     <select name="" id="" style="margin-left: 200px; width: 100px; font-size: x-large; margin-top: 30px;">
+        <option value="">+91</option>
+     </select>
+     <input type="number" style="height: 28px; position: relative; bottom: 5px;">
+     <label for="" style="margin-left: 80px; font-size: x-large; margin-top: 30px;">Emergency mobile number</label>
+     <select name="" id="" style="margin-left: 20px; width: 100px; font-size: x-large; margin-top: 30px;">
+        <option value="">+91</option>
+     </select>
+     <input type="number" style="height: 28px; position: relative; bottom: 5px;"><br>
+     <label for="" style="margin-left: 80px; font-size: x-large; margin-top: 30px;">Landline number</label>
+     <input type="number" placeholder="Ex:8830930" style="margin-left: 200px; margin-top: 30px; font-size: x-large;">
+     <label for="" style="margin-left: 80px; font-size: x-large; margin-top: 30px;">Email id</label>
+     <input type="email" placeholder="Ex:abc@gmail.com" style="margin-left: 200px; margin-top: 30px; font-size: x-large;">
+
+    </form>
+
+    
+</body>
+</html>
