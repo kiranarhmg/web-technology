@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color:lavender;
+    border: 1px solid white;
+    border-bottom: none;
+   
+}
+.container{
+   
+    height: 70vh;
+    width: 100%;
+   margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
+.c1{
+    width: 40%;
+    height: 40vh;
+  
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+}
+h1{
+    margin-right: 125px;
+    color: blue;
+    font-size: xx-large;
+    font-weight: bolder;
+   
+}
+p{
+    font-size: xx-large;
+}
+
+.c2{
+    width: 50%;
+    height: 60vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f1
+{
+    width: 60%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.i1{
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+   border: 1px solid gainsboro;
+   text-align: center;
+   font-size: large;
+  
+}
+#p1{
+    margin-top: 20px;
+    color: rgba(89, 89, 243, 0.995);
+    text-decoration: none;
+    font-size: large;
+}
+#p1:hover{
+    text-decoration: underline;
+}
+.i1:link{
+    border: 1px solid blue;
+}
+.i2{
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+   border: 1px solid gainsboro;
+   text-align: center;
+   background-color: blue;
+   color: whitesmoke;
+   font-weight: bold;
+   font-size: large;
+  
+}
+.hr{
+    margin-top: 30px;
+    width: 90%;
+    height: 0.5px;
+    background-color: rgb(202, 207, 207);
+
+}
+.i3{
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+   border: 1px solid gainsboro;
+   text-align: center;
+   background-color:green;
+   color: whitesmoke;
+   font-weight: bold;
+   font-size: large;
+  
+}
+img{
+    width: 200px;
+    height: 60px;
+    margin-right: 295px;
+    margin-bottom: 30px;
+}
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color:rgba(230, 230, 250, 0.812); 
+}
+.fo1{
+    width: 100%;
+    height: 15vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+ul{
+    width: 80%;
+    height: 10vh;
+   
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+   
+}
+
+li{
+   margin: -30px;
+    width: 10%;
+    height: 8vh;
+   
+}
+
+.a1{
+text-decoration: none;
+color: black;
+}
